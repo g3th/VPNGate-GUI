@@ -15,7 +15,7 @@ class interface_graphical_elements:
 		
 		resized= self.open_image.resize((363,100))
 		image = ImageTk.PhotoImage(resized)		
-		canvas = Canvas(root, width = 100, height = 100)
+		canvas = Canvas(root, width = 365, height = 110)
 		canvas.image = image
 		canvas.create_image(5,5,anchor=NW,image=image)
 		canvas.place(x=1,y=1)
